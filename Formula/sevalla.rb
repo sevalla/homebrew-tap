@@ -1,28 +1,28 @@
 class Sevalla < Formula
   desc "Official CLI for the Sevalla cloud platform"
   homepage "https://github.com/sevalla/cli"
-  version "2.2.0"
+  version "2.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sevalla/cli/releases/download/v2.2.0/sevalla-darwin-arm64.tar.gz"
-      sha256 "a9eb978d922161a6fff92c66d71ff2af349ff820c374875068853d953993a408"
+      url "https://github.com/sevalla/cli/releases/download/v2.2.1/sevalla-darwin-arm64.tar.gz"
+      sha256 "4f1cc5fc09cdfdd0b961aed63d8f52774b0a44c58fd28ccf50ce5a3f993192b9"
     end
     on_intel do
-      url "https://github.com/sevalla/cli/releases/download/v2.2.0/sevalla-darwin-x64.tar.gz"
-      sha256 "97b731ab72c086abd13ae84cf7838d43f06dbbd105e493164000f37439b00c05"
+      url "https://github.com/sevalla/cli/releases/download/v2.2.1/sevalla-darwin-x64.tar.gz"
+      sha256 "1ba5973e568a38119fb626c7c7f40a5aa49fa5835a0936f90769cbf4d3cf1e48"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sevalla/cli/releases/download/v2.2.0/sevalla-linux-arm64.tar.gz"
-      sha256 "5a698962d81a06a0dff72685bc7d7ca867da14b23e24c214f9aef040a7ead939"
+      url "https://github.com/sevalla/cli/releases/download/v2.2.1/sevalla-linux-arm64.tar.gz"
+      sha256 "ccb4aa25f174e90a5a51fe42651c2d20f9be862053a2d33864ddd5d50aafe265"
     end
     on_intel do
-      url "https://github.com/sevalla/cli/releases/download/v2.2.0/sevalla-linux-x64.tar.gz"
-      sha256 "be3d0aac5677e4a212f362d013f6fee8b653904151d9b35ac3c31665055fffcd"
+      url "https://github.com/sevalla/cli/releases/download/v2.2.1/sevalla-linux-x64.tar.gz"
+      sha256 "b0a06f24a5a4576f387e5d5a84177450df1839080e19fe0d8659ae4724826879"
     end
   end
 
